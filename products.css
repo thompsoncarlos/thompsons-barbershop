@@ -1,5 +1,5 @@
 header {
-    background: #BBBBBB;
+    background: #FFFFFF;
     padding: 20px 0;
 }
 
@@ -28,6 +28,15 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+main {
+    background: #BBBBBB;
+}
+
 .products {
     width: 940px;
     margin: 0 auto;
@@ -35,6 +44,7 @@ nav a {
 }
 
 .products li {
+    background: #FFFFFF;
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -42,6 +52,20 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.products li:hover {
+    border-color: #C78C19
+}
+
+.products li:active {
+    border-color: #088C19;
+}
+
+.products li:hover h2 {
+    font-size: 32px;
 }
 
 .products h2 {
@@ -57,4 +81,15 @@ nav a {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 18px 0 0 0;
 }
